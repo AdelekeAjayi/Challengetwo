@@ -134,6 +134,7 @@ body {
 .body23 {
   height: auto;
   display: grid;
+  padding-left: 40px;
 }
 
 .body23 input {
@@ -153,14 +154,17 @@ body {
 }
 
 .body23 label {
-  color: #000000;
+  font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
 
 .body24 {
   padding-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 40px;
 }
 
 .btn3 {
@@ -177,4 +181,40 @@ body {
 
 a {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1030px) {
+  .body0 {
+    display: grid;
+    /* margin-top: 30px; */
+    justify-content: center;
+    height: auto;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+  }
+
+  .body1 {
+    background: #5b9bf3;
+    border-radius: 15px 15px 0px 0px;
+    width: 80%;
+    height: auto;
+    /* padding-left: 50px; */
+  }
+
+  .body2 {
+    display: grid;
+    background-color: #ffff;
+    border-radius: 0px 0px 15px 15px;
+    width: 89.5%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body1 img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: auto;
+    width: 400px;
+  }
 }
